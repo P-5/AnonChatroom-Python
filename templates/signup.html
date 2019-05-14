@@ -1,0 +1,22 @@
+<html lang="en">
+  <head>
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <center>
+      <p><b>Name: </b>{name}</p>
+      <p><b>Posts: </b>{posts}</p>
+      <p><b>Comments: </b>{comments}</p>
+      <p><b>Upvotes: </b>{upvotes}</p>
+      <p><b>Downvotes: </b>{downvotes}</p>
+      <p><a href="signup?delete={name}">Delete User</a></p>
+      <br>
+      <p>Make sure only you know your name....</p>
+      <br>
+      <p><b>Posts:</b></p>
+      {forums}
+      <br>
+      <a href="post?user={name}">Create a Post</a>
+    </center>
+  </body>
+</html>

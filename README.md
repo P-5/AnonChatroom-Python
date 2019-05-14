@@ -1,0 +1,1 @@
+An anonymous chatroom website implemented using Flask and MariaDB in about a weekend. Relies on a root user named "root" and a database named "rootDB". Features a fully function (but very spartan) UI, a scraper that automatically harvests JSON data from Reddit, and a parser used to populate the database with CSV data. Written in Python.
